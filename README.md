@@ -11,7 +11,7 @@ This article lists steps to install and run Apache Kafka cluster on Windows 10.
 [Step 4. Install the Java Runtime](#Step-4-Install-the-Java-Runtime)  
 [Step 5. Install ZooKeeper](#Step-5-Install-ZooKeeper)  
 [Step 6. Install and Set up Kafka Cluster](#Step-6-Install-and-Set-up-Kafka-cluster)  
-[Step 7. Test Apache Kafka](#Step-7-Test-Apache-Kafka)  
+[Step 7. Test Apache Kafka Cluster](#Step-7-Test-Apache-Kafka-cluster)  
 
 ## Step 1. Introduction
 To run Apache Kafka cluster on a windows OS, you can refer my article - [How To Set Up Apache Kafka on Window 10](https://github.com/chunren/install-kafka-on-windows), prepare and install all for the first five steps. 
@@ -75,19 +75,24 @@ log.dirs=c:/kafka_3/kafka-logs
 ```
 
 
-
-
-- If you plan to run Kafka on your loacal machine with other default settings, you are ready to go, otherwise you can change the following default setting:
-  zookeeper.connect=localhost:2181 with a proper IP address and a custom port number.
-- Open a new command prompt, and:
-1) type: 
+## Step 7. Test Apache Kafka Cluster
+- Go to the home directory of each Kafka folder (e.g., C:\kafka_1, C:\kafka_2 and C:\kafka_2), and run the following commands.
+1) Open a new command prompt, and type: 
 ```sh 
 cd c:\kafka_1, and press enter
+.\bin\windows\kafka-server-start.bat .\config\server.properties
 ```
-  2) then press "Enter", and type: 
-  ```sh
-  .\bin\windows\kafka-server-start.bat .\config\server.properties
-  ```
+2) Open a new command prompt, and type: 
+```sh 
+cd c:\kafka_2, and press enter
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+```
+3) Open a new command prompt, and type: 
+```sh 
+cd c:\kafka_3, and press enter
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+```
+
   , and press enter, you will see:
    ![Kafka running](https://raw.githubusercontent.com/chunren/markdown-src/master/raw/images/kafka_running_chunren_lai_2020.png)
   3) Now you finish installing and setting up Apache Kafka, and the Kafka server is up running.
