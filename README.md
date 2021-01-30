@@ -47,9 +47,35 @@ listeners=PLAINTEXT://localhost:9091
 ```sh
 log.dirs=c:/kafka_1/kafka-logs
 ```
+- step 6.6. Copy the folder C:\kafka_1, and change the new folder as: C:\kafka_2
+- step 6.7. Edit the  C:\kafka_2\config\server.properties, modify the following line with the new value:
+```sh
+broker.id=2
+```
+```sh
+listeners=PLAINTEXT://localhost:9092
+```
+```sh
+log.dirs=c:/kafka_2/kafka-logs
+```
 
-see, the screenshot below:
+- step 6.8. Copy the folder C:\kafka_1, and change the new folder as: C:\kafka_3
+- step 6.9. Edit the  C:\kafka_3\config\server.properties, modify the following line with the new value:
+```sh
+broker.id=3
+```
+```sh
+listeners=PLAINTEXT://localhost:9093
+```
+```sh
+log.dirs=c:/kafka_3/kafka-logs
+```
+
+see the screenshot below:
 ![kafka_1 server settings](https://github.com/chunren/markdown-src/blob/master/kafka_1_server_setting_chunren_lai.png)
+
+
+
 - If you plan to run Kafka on your loacal machine with other default settings, you are ready to go, otherwise you can change the following default setting:
   zookeeper.connect=localhost:2181 with a proper IP address and a custom port number.
 - Open a new command prompt, and:
