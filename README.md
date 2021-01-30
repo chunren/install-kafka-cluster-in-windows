@@ -16,7 +16,7 @@ This article lists steps to install and run Apache Kafka cluster on Windows 10.
 ## Step 1. Introduction
 To run Apache Kafka cluster on a windows OS, you can refer my article - [How To Set Up Apache Kafka on Window 10](https://github.com/chunren/install-kafka-on-windows), prepare and install all for the first five steps. 
 
-## STep 2. Download Files
+## Step 2. Download Files
 Ref - [Download Files](https://github.com/chunren/install-kafka-on-windows#Step-2-Download-Files)
 
 ## Step 3. Install the 7zip and Notepad plus plus
