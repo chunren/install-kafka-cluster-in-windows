@@ -48,7 +48,8 @@ listeners=PLAINTEXT://localhost:9091
 log.dirs=c:/kafka_1/kafka-logs
 ```
 
-
+see, the screenshot below:
+![kafka_1 server settings](https://github.com/chunren/markdown-src/blob/master/kafka_1_server_setting_chunren_lai.png)
 - If you plan to run Kafka on your loacal machine with other default settings, you are ready to go, otherwise you can change the following default setting:
   zookeeper.connect=localhost:2181 with a proper IP address and a custom port number.
 - Open a new command prompt, and:
