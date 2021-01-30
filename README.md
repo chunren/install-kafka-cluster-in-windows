@@ -17,9 +17,9 @@ Once you have finished the install the Zookeeper,
 - Use 7zip to unzip the Kafka's installation file (e.g., "kafka_2.13-2.7.0.tgz"). You will need to unzip it twice to get the original files.
 - After you fully unzip it, you will have a folder like:
 C:\temp\KafkaDownloads\kafka_2.13-2.6.0\kafka_2.13-2.6.0\kafka_2.13-2.6.0
-![N|Solid](https://raw.githubusercontent.com/chunren/markdown-src/master/raw/images/kafka_unzip_chunren_lai_2020.png)
+![Kafka unzip](https://raw.githubusercontent.com/chunren/markdown-src/master/raw/images/kafka_unzip_chunren_lai_2020.png)
 - Move the unzipped folder to C:\, and rename it as: C:\kafka_1, and you will see:
-    ![N|Solid](https://raw.githubusercontent.com/chunren/markdown-src/master/raw/images/kafka_installfolder_chunren_lai_2020.png)
+    ![kafka_1](https://github.com/chunren/markdown-src/blob/master/raw/images/kafka_1_chunren_lai.jpg)
 - Make a new subfolder C:\kafka_1\kafka-logs
 - Edit the  C:\kafka_1\config\server.properties, modify the following line with the new value:
 ```sh
@@ -37,5 +37,5 @@ cd c:\kafka_1, and press enter
   .\bin\windows\kafka-server-start.bat .\config\server.properties
   ```
   , and press enter, you will see:
-   ![N|Solid](https://raw.githubusercontent.com/chunren/markdown-src/master/raw/images/kafka_running_chunren_lai_2020.png)
+   ![Kafka running](https://raw.githubusercontent.com/chunren/markdown-src/master/raw/images/kafka_running_chunren_lai_2020.png)
   3) Now you finish installing and setting up Apache Kafka, and the Kafka server is up running.
