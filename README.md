@@ -47,6 +47,9 @@ listeners=PLAINTEXT://localhost:9091
 ```sh
 log.dirs=c:/kafka_1/kafka-logs
 ```
+see the screenshot below:
+![kafka_1 server settings](https://github.com/chunren/markdown-src/blob/master/kafka_1_server_setting_chunren_lai.png)
+
 - step 6.6. Copy the folder C:\kafka_1, and change the new folder as: C:\kafka_2
 - step 6.7. Edit the  C:\kafka_2\config\server.properties, modify the following line with the new value:
 ```sh
@@ -71,8 +74,6 @@ listeners=PLAINTEXT://localhost:9093
 log.dirs=c:/kafka_3/kafka-logs
 ```
 
-see the screenshot below:
-![kafka_1 server settings](https://github.com/chunren/markdown-src/blob/master/kafka_1_server_setting_chunren_lai.png)
 
 
 
