@@ -108,4 +108,10 @@ cd c:\kafka_1, and press enter
 ```
 ![topic details](https://github.com/chunren/markdown-src/blob/master/raw/images/kafka_cluster_topic_chunren_lai.png)
 
-\textcolor{<green>}{<**Congratulations!**>} You have successfully set up \textcolor{<green>{**Apache Kafka Cluster**} on your Windows 10.
+<style>
+.alert-green {
+  color: rgb(60,118,61) !important;
+}
+</style>
+
+<span class="alert-green ">**Congratulations!**></span> You have successfully set up \textcolor{<green>{**Apache Kafka Cluster**} on your Windows 10.
