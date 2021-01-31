@@ -93,6 +93,12 @@ cd c:\kafka_3, and press enter
 .\bin\windows\kafka-server-start.bat .\config\server.properties
 ```
 
+- Go to the home directory of any one Kafka folder, for example, to run the following command:
+```sh 
+cd c:\kafka_1, and press enter
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+```
+
   , and press enter, you will see:
    ![Kafka running](https://raw.githubusercontent.com/chunren/markdown-src/master/raw/images/kafka_running_chunren_lai_2020.png)
   3) Now you finish installing and setting up Apache Kafka, and the Kafka server is up running.
