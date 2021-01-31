@@ -1,6 +1,6 @@
 # How To Set Up Apache Kafka Cluster on Window 10
 
-### [By Chunren Lai](https://github.com/chunren), Jan.30, 2021
+### By [Chunren Lai](https://github.com/chunren), Jan.30, 2021
 
 This article lists steps to install and run Apache Kafka cluster on Windows 10.
 
