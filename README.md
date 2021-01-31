@@ -108,10 +108,4 @@ cd c:\kafka_1, and press enter
 ```
 ![topic details](https://github.com/chunren/markdown-src/blob/master/raw/images/kafka_cluster_topic_chunren_lai.png)
 
-<style>
-.alert-green {
-  color: rgb(60,118,61) !important;
-}
-</style>
-
 **Congratulations!** You have successfully set up **Apache Kafka Cluster** on your Windows 10.
