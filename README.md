@@ -48,7 +48,7 @@ listeners=PLAINTEXT://localhost:9091
 log.dirs=c:/kafka_1/kafka-logs
 ```
 see the screenshot below:
-![kafka_1 server settings](https://github.com/chunren/markdown-src/blob/master/kafka_1_server_setting_chunren_lai.png)
+![kafka_1 server settings](https://github.com/chunren/markdown-src/blob/master/raw/images/kafka_1_server_setting_chunren_lai.png
 
 - step 6.6. Copy the folder C:\kafka_1, and change the new folder as: C:\kafka_2
 - step 6.7. Edit the  C:\kafka_2\config\server.properties, modify the following line with the new value:
@@ -96,9 +96,15 @@ cd c:\kafka_3, and press enter
 - Go to the home directory of any one Kafka folder, for example, to run the following command:
 ```sh 
 cd c:\kafka_1, and press enter
-.\bin\windows\kafka-server-start.bat .\config\server.properties
+.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 3 --partitions 6 --topic StudentImport
+.\bin\windows\kafka-topics.bat --list --zookeeper localhost:2181 
 ```
+![topic created](https://github.com/chunren/markdown-src/blob/master/raw/images/kafka_cluster_create_topic_chunren_lai.png)
 
-  , and press enter, you will see:
-   ![Kafka running](https://raw.githubusercontent.com/chunren/markdown-src/master/raw/images/kafka_running_chunren_lai_2020.png)
-  3) Now you finish installing and setting up Apache Kafka, and the Kafka server is up running.
+- Check the topic detail in Kafka cluster:
+```sh 
+cd c:\kafka_1, and press enter
+.\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --describe --topic StudentImport
+```
+![topic details](https://github.com/chunren/markdown-src/blob/master/raw/images/kafka_cluster_topic_chunren_lai.png)
+
