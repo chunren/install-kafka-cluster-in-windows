@@ -114,4 +114,4 @@ cd c:\kafka_1, and press enter
 }
 </style>
 
-<span class="alert-green ">**Congratulations!**></span> You have successfully set up \textcolor{<green>{**Apache Kafka Cluster**} on your Windows 10.
+**Congratulations!** You have successfully set up **Apache Kafka Cluster** on your Windows 10.
